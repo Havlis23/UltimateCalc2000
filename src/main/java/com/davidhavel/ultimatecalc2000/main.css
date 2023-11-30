@@ -1,0 +1,59 @@
+.background {
+    -fx-background:linear-gradient(to top right, #162339, #2E4D71);
+}
+
+.display {
+    -fx-background-color: none;
+    -fx-text-fill: white;
+}
+
+#minus, #plus, #krat, #deleno, #AC {
+    -fx-background-color: linear-gradient(to bottom right, #FEB570, #fe6c6c);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-border-width: none;
+    -fx-border-color: none;
+    -fx-text-fill: white;
+
+}
+
+#minus:pressed, #plus:pressed, #krat:pressed, #deleno:pressed, #AC:pressed {
+    -fx-background-color: linear-gradient(to bottom right, #ab7a4b, #a24747);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-border-width: none;
+    -fx-border-color: none;
+    -fx-text-fill: white;
+}
+
+#rovnase{
+    -fx-background-color: linear-gradient(to left, #F83D90, #FA71A3);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-border-width: none;
+    -fx-border-color: none;
+    -fx-text-fill: white;
+}
+
+#rovnase:pressed {
+    -fx-background-color: linear-gradient(to left, #b72e6b, #a94e6f);
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-border-width: none;
+    -fx-border-color: none;
+    -fx-text-fill: white;
+}
+
+#jedna, #dva, #tri, #ctyri, #pet, #sest, #sedm, #osm, #devet, #nula, #C, #tecka {
+    -fx-background-color: none;
+    -fx-font-size: 17px;
+    -fx-text-fill: white;
+}
+
+#jedna:pressed, #dva:pressed, #tri:pressed, #ctyri:pressed, #pet:pressed, #sest:pressed, #sedm:pressed, #osm:pressed, #devet:pressed, #nula:pressed, #C:pressed, #tecka:pressed {
+    -fx-background-color: #bbcbcb;
+}
+
+.button {
+    -fx-background:linear-gradient(to top right, #FEA770, #FE6C6C);
+}
